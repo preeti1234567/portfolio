@@ -9,36 +9,102 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-  <div class="card m-2">
-    <div class="card-header text-center bg-secondary">
-      <h5 class="card-title text-white">uDecide</h5>
+  
+    <div class="card">
+      <div class="card-header text-center bg-secondary" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-white" type="button" data-toggle="collapse"
+            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            uDecide
+          </button>
+        </h2>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordian-project">
+        <div class="card-body">
+          <p class="card-text">UDecide helps voters get to know their current federal representatives for the election
+            cycle. We provide a "single pane of glass" for users to know who their four representatives are (President,
+            two Senators, and House member).</p>
+          <p>We display this information in a user friendly way using UI Semantic cards element.
+            Once the user has been introduced to their representative, then we dynamically display a button to see what
+            legislation they have sponsored (usually a good indicator of their priorities in office). We hope users can
+            then use this information to decide if their values are being appropriately represented by their current
+            federal official.</p>
+          <p>If not, Nov 3, 2020 is the day to make your opinion matter!</p>
+          <div class="row">
+            <p class="col-12">Links: 
+              <a href="https://preeti1234567.github.io/uDecide-Project" class="text-primary" target="_blank">website</a>
+              <a href="https://github.com/preeti1234567/uDecide-Project" class="text-primary" target="_blank">github</a>              
+            </p>
+          </div>
+          <div class=row>
+            <img class="col rounded" src="../assets/images/uDecide.png" alt="Card image cap">
+            <img class="col rounded" src="../assets/images/uDecide2.png" alt="Card image cap">
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="card-body">      
-      <p class="card-text">UDecide helps voters get to know their current federal representatives for the election cycle. We provide a "single pane of glass" for users to know who their four representatives are (President, two Senators, and House member).</p> <p>We display this information in a user friendly way using UI Semantic cards element.
-        Once the user has been introduced to their representative, then we dynamically display a button to see what legislation they have sponsored (usually a good indicator of their priorities in office). We hope users can then use this information to decide if their values are being appropriately represented by their current federal official.</p> <p>If not, Nov 3, 2020 is the day to make your opinion matter!</p>
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <a href="#" class="text-primary">https://github.com/preeti1234567/uDecide-Project</a>
+    <div class="card">
+      <div class="card-header text-center bg-secondary" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-white collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Day Planner
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordian-project">
+        <div class="card-body">
+          <p class="card-text">In this project, we made a daily planner which helps in making plans for the selected
+            time
+            slot and save it by pressing the button, which we can refer it later on whenever we go through the planner.
+            We
+            used Bootstrap CSS Framework as well as our own and.</p>
+          <p>We used Moment.js library to work with date and time.</p>
+          <div class="row">
+            <p class="col-12">Links: 
+              <a href="https://preeti1234567.github.io/work-dayscheduler" target="_blank" class="text-primary">website</a>
+              <a href="https://github.com/preeti1234567/work-dayscheduler" target="_blank" class="text-primary">github</a>
+            </p>
+          </div>
+          <div class="row">
+            <img class="col card-img-top" src="../assets/images/workschedular.png" alt="Card image cap">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="card m-2">
-    <div class="card-header text-center bg-secondary">
-      <h5 class="card-title text-white">Day Planner</h5>
+  <div class="card">
+    <div class="card-header text-center bg-secondary" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-white collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Password Generator
+        </button>
+      </h2>
     </div>
-    <div class="card-body">      
-      <p class="card-text">In this project, we made a daily planner which helps in making plans for the selected time slot and save it by pressing the button, which we can refer it later on whenever we go through the planner. We used Bootstrap CSS Framework as well as our own and.</p> <p>We used Moment.js library to work with date and time.</p>
-      <img class="card-img-top" src="workschedular.png" alt="Card image cap">
-      <a href="#" class="text-primary">https://github.com/preeti1234567/work-dayscheduler</a>
-    </div>
-  </div>
-  <div class="card m-2">
-    <div class="card-header text-center bg-secondary">
-      <h5 class="card-title text-white">Password Generator</h5>
-    </div>
-    <div class="card-body">      
-      <p class="card-text">The purpose of this assignment was to generate password with different sets of requirement.</p><p>It generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface.</p>
-      <img class="card-img-top" src="workschedular.jpg" alt="Card image cap">
-      <a href="#" class="text-primary">https://github.com/preeti1234567/Password-_Generator</a>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordian-project">
+      <div class="card-body">
+        <p class="card-text">The purpose of this assignment was to generate password with different sets of
+          requirement.
+        </p>
+        <p>It generates a random password based on user-selected criteria. This app will run in the browser and
+          feature
+          dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished
+          user interface.</p>
+          <div class="row">
+            <p class="col-12">Links: 
+              <a href="https://preeti1234567.github.io/Password-_Generator" target="_blank"class="text-primary">website</a>
+              <a href="https://github.com/preeti1234567/Password-_Generator" target="_blank"class="text-primary">github</a>              
+            </p>
+          </div>
+        <div class="row">
+          <img class="col card-img-top" src="../assets/images/passwordgenerator2.png" alt="Card image cap">
+        </div>
+        
+      </div>
+      </div>
     </div>
   </div>
 </body>
+
 </html>
